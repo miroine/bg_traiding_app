@@ -1,0 +1,13 @@
+[project]
+name = "oslo-trading-desk"
+version = "1.0.0"
+description = "Personal Streamlit app for the Norwegian stock market: watchlist, portfolio, simulations and signals."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
