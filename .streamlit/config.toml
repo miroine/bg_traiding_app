@@ -1,0 +1,15 @@
+# Nordic "fjord" theme — one calm accent, cool paper base, high legibility.
+# Chosen so the accent never competes with the green/red of profit-and-loss.
+[theme]
+base = "light"
+primaryColor = "#0B6E7A"            # fjord teal — buttons, sliders, active tab
+backgroundColor = "#F7F8FA"         # cool paper (deliberately not cream)
+secondaryBackgroundColor = "#EDF1F5" # sidebar, cards, inputs
+textColor = "#1B2733"               # ink slate
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
